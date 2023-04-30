@@ -1,0 +1,83 @@
+.MasterData-main{
+    margin-left: 7.5rem;
+    height: 90vh;
+    font-family:'Baskerville Old Face'
+}
+.MasterData_card{
+    margin-right: 2rem;
+    height: 74vh;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgb(0 0 0 / 75%);
+    /* background-color:#F6F7F8; */
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 25px;
+    margin-top: 20px; 
+       width: 75%;
+    margin-left: 10rem;
+}
+.MasterData_card_title{
+    text-align: center;
+    padding: 5px 1px 1px 1px;
+    font-size: 44px;
+    color: #434343;
+    margin-top: 4rem;
+}
+.MasterData-content{
+    text-align: center;
+    margin-top: 3rem;
+}
+.MasterData_btn{
+    width: 7rem;
+    height: 2.7rem;
+}
+.MasterData_mui_input{
+    font: inherit;
+    height: 25px;
+    padding: 0.6rem 16px;
+    background: none;
+    box-sizing: content-box;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-flex;
+    border-color: rgba(0, 0, 0, 0.23);
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+Label{
+    font-size:20px;
+}
+.Master_s_btn{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #20C5D9;
+    color: #fff;
+}
+.Master_submit_btn{
+    text-align: center;
+    margin-top:2rem;
+}
+.flex{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.Master_table_card{
+    background-color:#F6F7F8;
+    border-radius: 1rem 1rem 1rem 1rem;
+    height: 45.8vh;
+}
+.bg_d{
+    background-color:#F6F7F8;   
+    border-radius: 0.75rem
+}

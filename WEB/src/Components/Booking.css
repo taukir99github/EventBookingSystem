@@ -1,0 +1,187 @@
+.Booking_main{
+    background-color:#fff;
+    margin-left: 7.5rem;
+    margin-right: 2rem;
+    height: 80rem;
+    font-family:'Baskerville Old Face';
+}
+.Booking_heading{
+    font-size: 40px;
+    font-family:'Baskerville Old Face';
+    text-align:center;
+    font-weight:500;
+    padding: 1rem 0 1rem 0;
+}
+.Input_field{
+    display: flex;
+    column-gap: 2rem;
+    margin: 1rem 23rem 0 23rem;
+}
+Label{
+    font-size:20px;
+}
+.box{
+    width: 20rem;
+}
+.flex{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.content1{
+    margin: 2rem 7rem 0px 14rem;
+}
+.MuiOutlineinput {
+    padding: 0.6rem 16px;
+}
+.mui_input{
+    font: inherit;
+    height: 25px;
+    padding: 0.6rem 16px;
+    background: none;
+    box-sizing: content-box;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-flex;
+    border-color: rgba(0, 0, 0, 0.23);
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.gender_select{
+    font: inherit;
+    height: 25px;
+    padding: 0.6rem 16px;
+    background: none;
+    box-sizing: content-box;
+    overflow: hidden;
+    width: 12.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-flex;
+    border-color: rgba(0, 0, 0, 0.23);
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.gender_select:hover{
+    border-color:  rgba(0, 0, 0, 0.87);
+}
+.mui_input:hover{
+    border-color:  rgba(0, 0, 0, 0.87);
+}
+.mui_input_date{
+    font: inherit;
+    height: 25px;
+    padding: 0.6rem 16px;
+    background: none;
+    box-sizing: content-box;
+    overflow: hidden;
+    width: 12.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-flex;
+    border-color: rgba(0, 0, 0, 0.23);
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.mui_input_date:hover{
+    border-color:  rgba(0, 0, 0, 0.87);
+}
+.mui_input_time{
+    font: inherit;
+    height: 25px;
+    padding: 0.6rem 16px;
+    background: none;
+    box-sizing: content-box;
+    overflow: hidden;
+    width: 12.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-flex;
+    border-color: rgba(0, 0, 0, 0.23);
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.mui_input_time:hover{
+    border-color:  rgba(0, 0, 0, 0.87);
+}
+.s_btn{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #20C5D9;
+    color: #fff;
+}
+.submit_btn{
+    text-align: center;
+    margin-top:2rem;
+
+}
+.inc_btn{
+    width: 1.5rem;
+    height: 2rem;
+    border: none;
+    font-size: 20px;
+}
+.inc_input{
+    width: 5.5rem;
+    text-align: center;
+    font-size: 18px;
+    background: #eef0f2;
+    border: none; padding: 4px 0px 5px 0px;
+    border-radius: 2px;
+    margin-left: 0.7rem;
+}
+.inc{
+    /* margin-left: 0.7rem; */
+    /* background: #eef0f2; */
+    /* padding: 4px 0px 5px 0px; */
+    /* border-radius: 2px; */
+}
+.Room_select{
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 15px;
+    text-align: center;
+}
+.Add_btn{
+    margin-left: 3rem;
+    width: 2.5rem;
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    font-size: 35px;
+    background: #5dafdb;
+    color: #fff;
+}
+.Cross_btn{
+    height: 2rem;
+    margin-left: 3rem;
+    width: 2rem;
+    border: none;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 22px;
+    background: #fd0707;
+    color: #fff;
+}
+.Room_select1{
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0.98rem;
+}

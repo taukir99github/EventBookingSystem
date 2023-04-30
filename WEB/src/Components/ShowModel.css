@@ -1,0 +1,46 @@
+.modal-wrapper{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    background-color: rgba(189,189,189,0.9);
+}
+.modal-container{
+    position:fixed;
+    max-width: 50rem;
+    background-color:#fff;
+    transform: translate(-50%, -50%);
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    top:50%;
+    left:50%;
+}
+.h2_Parameter{
+    font-size :2.4rem;
+    font-family: "Work Sans", "sans-serif";
+}
+.p_Parameter{
+    font-size:1.4rem;
+    margin: 1rem 0 2.4rem 0;
+    line-height: 1.8rem;
+    color:#212121;
+    font-weight: 400;
+    font-family: "Source Serif Pro", serif;
+}
+.Profile_s_btn{
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #20C5D9;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.6rem;
+    cursor: pointer;
+}
+.Control_Botton{
+    display: flex;
+    float:right;
+    gap: 1rem;
+}

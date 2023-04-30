@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Appenders>
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
+    </Console>
+    <!-- File Appender for server-->
+    <File name="server" fileName="..\API\log\server.log">
+      <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
+    </File>
+    
+  </Appenders>
+
+  <Loggers>
+    <!-- Log everything -->
+    <Logger name="com.simpana.tbTalk" level="Info" additivity="false">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="server" />
+    </Logger>
+    
+
+    <!-- Log everything in Spring Boot -->
+    <Logger name="org.springframework.boot" level="Info" additivity="false">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="server" />
+    </Logger>
+
+    <!-- Log everything in Spring Core 
+    <Logger name="org.springframework.core" level="debug" additivity="false">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="File" />
+    </Logger> -->
+
+    <Root level="Info">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="server" />
+    </Root>
+    
+  </Loggers>
+</Configuration>

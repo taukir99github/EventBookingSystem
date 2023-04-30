@@ -1,0 +1,17 @@
+.Customer_Detail-main{
+    margin-left: 7.5rem;
+}
+.Customer_Detail_table_card{
+    margin-right: 2rem;
+}
+.Customer_Detail_table_card_title{
+    text-align: center;
+    padding: 5px 1px 1px 1px;
+    font-size: 44px;
+    color: #434343;
+    font-family:'Baskerville Old Face'
+}
+.Customer_Detail_btn{
+    width: 7rem;
+    height: 2.7rem;
+}
